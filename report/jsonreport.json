@@ -1,0 +1,908 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4520217900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigated to homepage",
+            "match": {
+              "location": "step_def.user_navigated_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1154621700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "step_def.user_enters_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3518701400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "step_def.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8997200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on homepage",
+            "match": {
+              "location": "step_def.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2650786501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on edit profile",
+            "match": {
+              "location": "step_def.click_on_edit_profile()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T06:22:01.102Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4291571600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.init()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "01-change notify by mail on new invitation",
+        "description": "",
+        "id": "edit-profile-in-elearning-website;01-change-notify-by-mail-on-new-invitation",
+        "after": [
+          {
+            "result": {
+              "duration": 1689012500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4732500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user is on edit profile page",
+            "match": {
+              "location": "step_def.user_is_on_edit_profile_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1070626399,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on new invitation drop dowm",
+            "match": {
+              "location": "step_def.user_click_on_new_invitation_drop_dowm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82413500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects once a day",
+            "match": {
+              "location": "step_def.user_selects_once_a_day()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1140925499,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on save settings",
+            "match": {
+              "location": "step_def.user_clicks_on_save_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validation message appears",
+            "match": {
+              "location": "step_def.validation_message_appears()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag1"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5192246199,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigated to homepage",
+            "match": {
+              "location": "step_def.user_navigated_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1134334701,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "step_def.user_enters_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2941514799,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "step_def.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4316800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on homepage",
+            "match": {
+              "location": "step_def.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3234243901,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on edit profile",
+            "match": {
+              "location": "step_def.click_on_edit_profile()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T06:22:21.238Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1094323500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.init()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "02-change notify by mail on new personal message",
+        "description": "",
+        "id": "edit-profile-in-elearning-website;02-change-notify-by-mail-on-new-personal-message",
+        "after": [
+          {
+            "result": {
+              "duration": 1709925001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6915500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user is on edit profile page",
+            "match": {
+              "location": "step_def.user_is_on_edit_profile_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1081033900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click on personal message drop dowm",
+            "match": {
+              "location": "step_def.user_click_on_personal_message_drop_dowm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79954801,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects no",
+            "match": {
+              "location": "step_def.user_selects_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089620700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user clicks on save settings",
+            "match": {
+              "location": "step_def.user_clicks_on_save_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "validation message appears",
+            "match": {
+              "location": "step_def.validation_message_appears()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4045751800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigated to homepage",
+            "match": {
+              "location": "step_def.user_navigated_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1135427900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "step_def.user_enters_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3528580899,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "step_def.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4839300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on homepage",
+            "match": {
+              "location": "step_def.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2473263101,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on edit profile",
+            "match": {
+              "location": "step_def.click_on_edit_profile()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T06:22:38.808Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1088924099,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.init()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "03-change notify by mail on new message in group",
+        "description": "",
+        "id": "edit-profile-in-elearning-website;03-change-notify-by-mail-on-new-message-in-group",
+        "after": [
+          {
+            "result": {
+              "duration": 1677369999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6372899,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user is on edit profile page",
+            "match": {
+              "location": "step_def.user_is_on_edit_profile_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1065060400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user clicks on message in group drop down",
+            "match": {
+              "location": "step_def.user_clicks_on_message_in_group_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 71976401,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user selects upon reception",
+            "match": {
+              "location": "step_def.user_selects_upon_reception()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1071028300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks on save settings",
+            "match": {
+              "location": "step_def.user_clicks_on_save_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65999,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "validation message appears",
+            "match": {
+              "location": "step_def.validation_message_appears()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag3"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4089873300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigated to homepage",
+            "match": {
+              "location": "step_def.user_navigated_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1162046999,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "step_def.user_enters_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3259797601,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "step_def.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7504700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on homepage",
+            "match": {
+              "location": "step_def.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2786732101,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on edit profile",
+            "match": {
+              "location": "step_def.click_on_edit_profile()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T06:22:54.977Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1065376100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.init()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "04-change language",
+        "description": "",
+        "id": "edit-profile-in-elearning-website;04-change-language",
+        "after": [
+          {
+            "result": {
+              "duration": 1691001400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6854101,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user is on edit profile page",
+            "match": {
+              "location": "step_def.user_is_on_edit_profile_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1072808101,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user clicks on change language drop down",
+            "match": {
+              "location": "step_def.user_clicks_on_change_language_drop_down()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1085066800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user inputs valid language",
+            "match": {
+              "location": "step_def.user_inputs_valid_language()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "press enter key",
+            "match": {
+              "location": "step_def.press_enter_key()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1200728700,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user clicks on save settings",
+            "match": {
+              "location": "step_def.user_clicks_on_save_settings()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "validation message appears",
+            "match": {
+              "location": "step_def.validation_message_appears()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag4"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Background section",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4028725401,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigated to homepage",
+            "match": {
+              "location": "step_def.user_navigated_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1145592300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid username and password",
+            "match": {
+              "location": "step_def.user_enters_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2933369100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "step_def.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6834200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user lands on homepage",
+            "match": {
+              "location": "step_def.user_lands_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2586669400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on edit profile",
+            "match": {
+              "location": "step_def.click_on_edit_profile()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T06:23:12.407Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1108892401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.init()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "05-change password",
+        "description": "",
+        "id": "edit-profile-in-elearning-website;05-change-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1676713100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4534099,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user is on edit profile page",
+            "match": {
+              "location": "step_def.user_is_on_edit_profile_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18499,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicks on pass field",
+            "match": {
+              "location": "step_def.user_clicks_on_pass_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1078941999,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user enters valid pass",
+            "match": {
+              "location": "step_def.user_enters_valid_pass()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user clicks on new password",
+            "match": {
+              "location": "step_def.user_clicks_on_new_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1088569301,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user enters valid new password",
+            "match": {
+              "location": "step_def.user_enters_valid_new_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user clicks on confirm password",
+            "match": {
+              "location": "step_def.user_clicks_on_confirm_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1098799600,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "user enters valid confirm password",
+            "match": {
+              "location": "step_def.user_enters_valid_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1217808801,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "user clicks on save settings",
+            "match": {
+              "location": "step_def.user_clicks_on_save_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48900,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "validation message appears",
+            "match": {
+              "location": "step_def.validation_message_appears()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag5"
+          }
+        ]
+      }
+    ],
+    "name": "edit profile in elearning website",
+    "description": "",
+    "id": "edit-profile-in-elearning-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/cucumber_feature/project.feature",
+    "tags": []
+  }
+]

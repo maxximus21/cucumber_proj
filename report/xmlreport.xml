@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="89.278545">
+<testcase classname="edit profile in elearning website" name="01-change notify by mail on new invitation" time="20.135283">
+<system-out><![CDATA[Given user navigated to homepage............................................passed
+Then user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user lands on homepage.................................................passed
+And click on edit profile...................................................passed
+Given user is on edit profile page..........................................passed
+When user click on new invitation drop dowm.................................passed
+And user selects once a day.................................................passed
+Then user clicks on save settings...........................................passed
+And validation message appears..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="edit profile in elearning website" name="02-change notify by mail on new personal message" time="17.568989">
+<system-out><![CDATA[Given user navigated to homepage............................................passed
+Then user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user lands on homepage.................................................passed
+And click on edit profile...................................................passed
+Given user is on edit profile page..........................................passed
+When user click on personal message drop dowm...............................passed
+And user selects no.........................................................passed
+Then user clicks on save settings...........................................passed
+And validation message appears..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="edit profile in elearning website" name="03-change notify by mail on new message in group" time="16.16919">
+<system-out><![CDATA[Given user navigated to homepage............................................passed
+Then user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user lands on homepage.................................................passed
+And click on edit profile...................................................passed
+Given user is on edit profile page..........................................passed
+When user clicks on message in group drop down..............................passed
+And user selects upon reception.............................................passed
+Then user clicks on save settings...........................................passed
+And validation message appears..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="edit profile in elearning website" name="04-change language" time="17.428493">
+<system-out><![CDATA[Given user navigated to homepage............................................passed
+Then user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user lands on homepage.................................................passed
+And click on edit profile...................................................passed
+Given user is on edit profile page..........................................passed
+When user clicks on change language drop down...............................passed
+And user inputs valid language..............................................passed
+Then press enter key........................................................passed
+And user clicks on save settings............................................passed
+Then validation message appears.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="edit profile in elearning website" name="05-change password" time="17.97659">
+<system-out><![CDATA[Given user navigated to homepage............................................passed
+Then user enters valid username and password................................passed
+And clicks on login button..................................................passed
+Then user lands on homepage.................................................passed
+And click on edit profile...................................................passed
+Given user is on edit profile page..........................................passed
+When user clicks on pass field..............................................passed
+And user enters valid pass..................................................passed
+Then user clicks on new password............................................passed
+And user enters valid new password..........................................passed
+Then user clicks on confirm password........................................passed
+And user enters valid confirm password......................................passed
+Then user clicks on save settings...........................................passed
+And validation message appears..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
